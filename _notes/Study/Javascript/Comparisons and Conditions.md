@@ -1,4 +1,4 @@
-## **Back to Index : [[Index]]
+## **Back to Index : [[Javascript Index]]
 
 ---
 
