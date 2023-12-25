@@ -5,22 +5,10 @@ id: home
 permalink: /
 ---
 
-# Javascript vault: 🌱
+# Vault
 
-<table>  
-  <tr>  
-    <th>Angular Notes</th>  
-    <th>JavaScript Notes</th>  
-    
-  </tr>  
-  <tr>  
-    <td> [[Javascript Index]] </td>  
-    <td> [[Index- Angular Topics]] </td>  
-  </tr> 
-</table>
-
-- Javascript Notes here : [[Javascript Index]]
-- Angular Notes here.    :  [[Index- Angular Topics]]
+1. Javascript Notes here  : [[Javascript Index]]
+2. Angular Notes here      :  [[Index- Angular Topics]]
 
 
 <style>

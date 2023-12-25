@@ -6,4 +6,4 @@ permalink: /about
 
 *This is an about page.*
 
-Feel free to tell the world about what you love! 😍
+This is an obsidian vault of all my Obsidian notes.
