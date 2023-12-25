@@ -4,7 +4,7 @@
 ---
 
 
-### **Creating a asp.net core app through terminal in macOS**:
+### **Creating an Asp.net core app through terminal in macOS**:
 
 - Since we are using macOS, it will be a little different than windows installation. In windows we can just install the dot net core framework with the visual studio and proceeding.
 - For our purposes we are going to be using `VS Code` as our editor. and we have also installed the `dot net SDK` and the `C# dev kit`.

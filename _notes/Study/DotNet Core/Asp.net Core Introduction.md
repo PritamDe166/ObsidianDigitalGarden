@@ -33,8 +33,12 @@
 - **Cloud-enabled**
 	- ASP.NET Core is developed with the cloud in mind. This means it supports `Microsoft Azure Cloud` out of the box.
 
+</br>
+
 
 ---
+
+</br>
 
 
 ### **Types of projects in Asp.net core**
@@ -66,4 +70,10 @@
 
 >[!tip] Blazor, out of all these four flavours, the first two are the most commonly used in real-world project development.
 
+
+</br>
+
+---
+
+</br>
 
