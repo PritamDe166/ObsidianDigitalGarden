@@ -7,8 +7,20 @@ permalink: /
 
 # Javascript vault: 🌱
 
-- Angular Notes here : [[Javascript Index]]
-- Javascript Notes here :  [[Index- Angular Topics]]
+<table>  
+  <tr>  
+    <th>Angular Notes</th>  
+    <th>JavaScript Notes</th>  
+    
+  </tr>  
+  <tr>  
+    <td> [[Javascript Index]] </td>  
+    <td> [[Index- Angular Topics]] </td>  
+  </tr> 
+</table>
+
+- Javascript Notes here : [[Javascript Index]]
+- Angular Notes here.    :  [[Index- Angular Topics]]
 
 
 <style>
