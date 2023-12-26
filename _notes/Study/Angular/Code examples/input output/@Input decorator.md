@@ -1,7 +1,7 @@
 
 
 ### **Back to Index** : - [[@Input and @Output Operator]]
-</br>
+<br>
 
 ---
 
@@ -10,7 +10,7 @@
 
 - Lets see an example where we are transferring a simple string in the child component.
 
-</br>
+<br>
 
 ***In the child component `.ts` file***:
 
@@ -28,7 +28,7 @@ export class InputExampleChildComponent implements OnChanges{
 
 - So we have a variable `testStringfromParent` which is basically the `input` and will store the details when it is passed from the parent.
 
-</br>
+<br>
 
 ***In the parent component***:
 
@@ -56,7 +56,7 @@ _Parent `.ts`_:
 	test1 : string = "";
 ```
 
-</br>
+<br>
 
 _Explanation_:
 
@@ -65,7 +65,7 @@ _Explanation_:
 
 - This will be achieved when we use the `[testStringfromParent] = "test1"` in the selector of the child that we use in parent html.
 
-</br></br>
+<br><br>
 
 ***Child component `.ts`***:
 

@@ -32,7 +32,7 @@
 ### **Setting up the `Routes`**
 
 - Now that we have the `navbar` ready, we will start setting up the `routes` and we will create the components which will be loaded.
-   <br></br>
+   <br><br>
 - We can follow the steps mentioned here : [[Routing Concepts]]
 
 
@@ -42,6 +42,6 @@
 ### **Setting up a `login page`**:
 
 - Lets setup a login page which will have an authentication to allow users to have access to other components in the application.
-</br></br>
+<br><br>
 - Details are present in this detailed section : [[Implementing token for login]]
 

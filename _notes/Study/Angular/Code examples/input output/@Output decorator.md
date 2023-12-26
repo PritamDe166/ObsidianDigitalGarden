@@ -5,7 +5,7 @@
 
 - As we discussed the `@Output` decorator is used to send data from a child to a parent. This works a little differently then `@Input`.
 - Lets see a basic example where we are sending a string through `@Output`
-</br></br>
+<br><br>
 
 ***In the child component***:
 
@@ -20,7 +20,7 @@
 - In the above code, we have a textbox which we are binding to the variable `stringData` using the `[ngModel]`. We also have the `(ngModelChange)` which will call the method `sendtoParentEmitter` which will be called when there is any change in the textbox and this is where we are going to emit our changes.
   More about `ngModel` can be found here: [[ngModel and ngModelChange Directive]]
 
-</br>
+<br>
 
 ```ts
 import { Component, Input, Output, EventEmitter } from '@angular/core';
@@ -50,7 +50,7 @@ export class InputExampleChildComponent {
 		- Then we will be `emitting` the data to the parent component using the emit function. 
 
 
-</br></br>
+<br><br>
 
 ***In the parent component***:
 
@@ -66,7 +66,7 @@ export class InputExampleChildComponent {
 
 - We can see the differences between how we handle the `input` and `output` in the child selector tag in our parent.
 
-</br>
+<br>
 
 ```ts
 export class InputExampleParentComponent {

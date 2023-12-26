@@ -14,7 +14,7 @@
 - ASP.NET Web Forms inherently strives to make the web stateful rather than stateless. Consequently, each page must store its state, which is maintained in the form of view state. The view state object needs to be transferred between the client and server for every request. While this may suffice for simple web applications, it becomes a considerable drawback for medium to larger applications due to the increasing weight of view state. The heavyweight view state has to be transmitted between the client and server for each request, contributing to overall slower performance.
 
 - Moreover, in ASP.NET Web Forms, the server page lifecycle must be executed for every request. This entails a series of server events, making the process complex and heavyweight. This complexity is another factor contributing to the framework's slower performance. Additionally, ASP.NET Web Forms poses challenges for unit testing, adding another layer of difficulty and further detracting from its overall usability.
-</br></br>
+<br><br>
 
 
 
@@ -26,7 +26,7 @@
 
 - ASP.NET MVC is an integral part of the .NET Framework, making it problematic for hosting on alternative operating systems. To address these challenges, there arose a need to enhance performance, embrace cloud friendliness, and achieve cross-platform compatibility. These became the design goals for ASP.NET Core.
 
-</br>
+<br>
 
 
 **Asp.net Core**

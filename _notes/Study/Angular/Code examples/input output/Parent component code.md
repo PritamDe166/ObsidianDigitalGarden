@@ -57,7 +57,7 @@
 ```
 
 
-</br></br>
+<br><br>
 - Now lets see the `.ts` file:
 
 ```ts

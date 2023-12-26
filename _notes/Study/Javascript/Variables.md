@@ -25,11 +25,11 @@ const variable2 = 6;
 ### **Some Rules related to variables**:
 
 - We cant use special keywords as the name of the variable. like `var`, `let` etc. These are reserved keywords.
-</br></br>
+<br><br>
 - A variable name cant start with a number. It can have numbers in the middle and end.
-</br></br>
+<br><br>
 - We cant use most special characters like `@,#,!, spaces` etc. The only special characters we can use are `$` and `_`.
-</br></br>
+<br><br>
 - Another important character in the semicolon. Its needed to separate two set of instructions. For eg.
 ```js
 let variable1 = 3 console.log(variable1)
@@ -46,7 +46,7 @@ However its the `best practise` to use semicolon in our syntax.
 
 
 - Naming convention for any variable in JS is `camelCase`.
-</br></br>
+<br><br>
 - Also remember the since JS is a weakly typed language, we may often need to use then `typeof` function in our logic to understand what kind of value a certain variable holds.
 ```js
 console.log(typeof(totalQuantity));

@@ -25,7 +25,7 @@
 
 - In summary, interfaces in Angular play a crucial role in defining clear contracts for the shape of data and objects within your application, promoting type safety and making your code more maintainable.
 
-</br></br>
+<br><br>
 
 ***Defining an Interface***:
 ```js
@@ -37,7 +37,7 @@
 ```
 
 
-</br></br>
+<br><br>
 ***Using an interface***:
 
 ```js

@@ -14,7 +14,7 @@
 
 >[!success] However, most of the cases in the real world, you will use the kestrel as an application server and development server only.
 
-</br></br>
+<br><br>
 
 
 **Reverse proxy Servers**:
@@ -24,7 +24,7 @@
 
 - After completion of the development, you require to push the code into the production server which can receive the request from the internet anywhere in the world. So there you will be using reverse proxy servers such as `IIS`, `nginx`, or `apache` as `Reverse proxy servers`. The architecture looks like this.
 
-</br>
+<br>
 
 ![[Screenshot 2023-12-26 at 10.52.46 PM.png]]
 
@@ -40,14 +40,14 @@ _With Kestral:_
   The application code can receive that context and can process based on that and can provide the response or result back to the kestrel. Then the kestrel sends the same response back to the internet or the client. 
   So this is the general process that happens with kestrel.
 
-***NOTE***:</br>
+***NOTE***:<br>
 - `Kestrel` doesn't support some of the advanced features that are required on the internet these days, such as `load balancing` and `URL rewriting`. 
 - These types of features are expected on production servers, but they are not supported by Kestrel by default.
 
 >[!tip] Most of the websites today use a `reverse proxy server`, meaning that the actual request from the client will be received by a reverse proxy server such as `IIS`, `nginx`, or `apache`.
 
 
-</br>
+<br>
 
 _Reverse proxy servers:_
 
@@ -58,14 +58,14 @@ _Reverse proxy servers:_
 - And then the application code receives the request along with the context and can execute some code and can provide the response back to the kestrel. And the kestrel as usual sends the same response back to the reverse proxy server. And then the same response will be sent back to the actual client who sends the request. So in the real production scenarios this is the process what happens.
 
 ---
-</br></br>
+<br><br>
 
 
-***NOTE*** </br>
+***NOTE*** <br>
 - You can simulate the features of a reverse proxy server during development as well by using a dummy reverse proxy server called IIS express. 
 - IIS express simulates IIS, meaning it acts as a reverse proxy server which can receive the request and forward the same to Kestrel. Of course, during development, it is just an option whether to use IIS express or not.
 
-</br></br>
+<br><br>
 
 - Now how do we know that that kestral server launches by default as soon as the application launches.
 - When we run the application using the `dotnet run` terminal command, we see that the `hosting` log is generated in the terminal like this:
@@ -86,13 +86,13 @@ Building...
 - Post that when we sent the request for a route from the browser by typing the route url like `http://localhost:5018/` and that returns the result `Hello World!!`, because in our default code we have the output for this route as `Hello World`. 
   Suppose we mention another route like `/home` and return something, like `Hello Home!!`, we will get the response once we enter that URL `http://localhost:5018/home`.
 
-</br></br>
+<br><br>
 
-***POINTS TO REMEMBER***:</br>
+***POINTS TO REMEMBER***:<br>
 - So the order of execution in our development server is this:
 	- When we run the application, the `kestral` server gets launched by default and makes the application code available to receive requests in the `localhost` port, which is basically hosting the API to make it available to receive HTTP requests and provide response.
 	- Now when we enter the URL in the browser, we will get the response accordingly.
-	  </br></br>
+	  <br><br>
 - Always try to visualise the Asp.net Core app as being an API like architecture, with or without a view. We can write the view in `Razor pages` or `Blazor` or other frontend languages like `Angular`, `React` etc. 
-</br></br>
+<br><br>
 - In Production, the application will be hosted though the `reverse proxy servers` and we will have the URL always available to receive requests and send responses.

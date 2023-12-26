@@ -1,9 +1,9 @@
-</br></br>
+<br><br>
 
 ### **Back to Index** : - [[Index- Angular Topics]]
 
 ---
-</br>
+<br>
 
 
 ### **ngModel**:
@@ -35,7 +35,7 @@ import { FormsModule } from '@angular/forms';
   }
 ```
 
-</br></br>
+<br><br>
 
 ---
 
@@ -63,7 +63,7 @@ import { FormsModule } from '@angular/forms';
 
 ---
 
-</br></br>
+<br><br>
 
 ***IMPORTANT***:
 

@@ -18,7 +18,7 @@
 
 ---
 
-</br>
+<br>
 
 ### **Setting up the parent-child in component**:
 
@@ -27,7 +27,7 @@
 
 ---
 
-</br></br>
+<br><br>
 
 ### **Intro**:
 
@@ -37,7 +37,7 @@
 
 ---
 
-</br>
+<br>
 
 ### **@input Decorator**:
 
@@ -45,7 +45,7 @@
 
 ---
 
-</br>
+<br>
 
 ### **ngOnChanges()**:
 
@@ -55,7 +55,7 @@
 - Lets see the detailed info here : [[ngOnChanges details]]
 
 
-</br>
+<br>
 
 ---
 

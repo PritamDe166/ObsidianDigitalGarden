@@ -23,7 +23,7 @@ function LessThan(){
 }
 ```
 
-</br></br>
+<br><br>
 
 ***Less Than***:
 ```js
@@ -33,7 +33,7 @@ function MoreThan(){
 ```
 
 
-</br></br>
+<br><br>
 
 ***Greater than equal to***:
 ```js
@@ -42,7 +42,7 @@ function GTEqTo(){
 }
 ```
 
-</br></br>
+<br><br>
 
 ***Less than equal to***:
 ```js
@@ -51,7 +51,7 @@ function ltETo(){
 }
 ```
 
-</br></br>
+<br><br>
 
 ***Equal to (`===`)***:
 - In Javascript, we normally use `===` as the conditional operator. This will do a strongly-typed comparison. This means it will compare the `type` as well as `value`.
@@ -63,7 +63,7 @@ function EqualTo(){
 }
 ```
 
-</br></br>
+<br><br>
 
 ***Equal To (`==`)***:
 - This is also work, but this does a weakly typed comparison. In the same example with values `4.5` and `"4.5"`, it will consider them equal.
@@ -73,7 +73,7 @@ function EqualTo2(){
 }
 ```
 
-</br></br>
+<br><br>
 
 ***Not Equal To***:
 ```js
@@ -182,7 +182,7 @@ var result = (num1 > num2) ? true : false;
 
 
 ---
-</br>
+<br>
 
 >[!tip] These `ternary operator`, `truthy , falsy` , `Guard Operator` and `Default Operator` can all be considered as shortcuts to the `if-else` condition. 
 
@@ -206,7 +206,7 @@ function ViewScore(){
 }
 ```
 
-</br></br>
+<br><br>
 - Instead of this, using the `default operator` syntax, we can rewrite it as follows:
 
 ```js

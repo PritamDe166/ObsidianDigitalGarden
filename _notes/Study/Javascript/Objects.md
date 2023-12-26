@@ -164,7 +164,7 @@ const Employee2 = {
 }
 ```
 
-</br></br>
+<br><br>
 - We have a JS object 'Employee1' and now lets see how we can convert that in a JSON object:
 ```js
 JSON.stringify(Employee1)

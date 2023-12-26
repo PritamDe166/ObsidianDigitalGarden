@@ -1,4 +1,4 @@
-</br>
+<br>
 
 ### **Back to Index** : - [[Index- Angular Topics]]
 
@@ -6,7 +6,7 @@
 
 ---
 
-</br>
+<br>
 
 ### **Form Introduction**:
 
@@ -45,7 +45,7 @@
 ```
 
 
-</br>
+<br>
 
 ***Explanation***:
 
@@ -56,27 +56,27 @@
 	
 
 ---
-</br>
+<br>
 
 ### **Form Building Blocks**:
 
 - The important points that we need to understand when dealing with forms are the concepts of :
 
-  [[FormGroup]] </br>
-  [[FormControl]] </br>
+  [[FormGroup]] <br>
+  [[FormControl]] <br>
   [[FormModel]]
 		
 
 ---
 
 
-</br>
+<br>
 
 
 ### **Form States**:
 
 - Before we see the forms types and their examples let's take a look at the various states in a form:
-</br></br>
+<br><br>
 
 ***STATE***:
 - There are various states of a form which can be very useful in tracking the various types of states in a form.

@@ -34,7 +34,7 @@
 
 ```
 
-</br></br>
+<br><br>
 - Now lets see the ts code:
 
 ```ts

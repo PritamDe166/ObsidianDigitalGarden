@@ -30,7 +30,7 @@ export class loginUserDetails{
 ```
 
 
-</br></br>
+<br><br>
 
 ---
 
@@ -56,7 +56,7 @@ export const UserLoginDetails :  loginUserDetails[]= [
 
 
 
-</br></br>
+<br><br>
 
 ---
 
@@ -115,7 +115,7 @@ validateUserDetails(loginData : loginUserDetails): boolean{
 4) **Logic in the login page to generate the token**:
 
 - Now that we have a service to generate token, we will need to implement it in our login page.
-</br>
+<br>
 ```js
  loginFn(formsdata : any){
     this.isLoginValidated = this.loginAuth.validateUserDetails(this.loginData);
@@ -132,5 +132,5 @@ validateUserDetails(loginData : loginUserDetails): boolean{
 	- Next, we will call the `saveToken()` method in the service which is create a token and save it in the localStorage.
 	- Then we will navigate to the `home` route, by using `router.navigate()`. Find the details about `navigate()` here: [[Routing Concepts#**router.Navigate([''])**]]
 
-</br></br>
+<br><br>
 

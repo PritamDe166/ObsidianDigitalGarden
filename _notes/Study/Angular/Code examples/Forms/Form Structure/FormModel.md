@@ -9,23 +9,23 @@
 - The structure of the `FormModel` represents the form and input elements inside the template.
 It can be vaguely compared with the DOM that gets formed for an HTML page.
 - In most cases, each input element within the HTML form has a corresponding `FormControl` in the `FormModel`.
-</br></br>
+<br><br>
 - FormModel also does the below: 
 	- It retains the state such as dirty/touched etc.
 	- It retains the value of any input element as the user types input any input element.
 	- It also tracks all the FormGroup and nested FormGroup within the form along with their states and values.
 
-</br></br>
+<br><br>
 
 ***Some important points:***
 
 - We `SHOULD NOT` confuse the `FormModel` with the `data-model` used for the data-binding.
 We can use the `Form-model` contents anytime to know the state/value of a `FormControl` or a `FormGroup`.
-</br></br>
+<br><br>
 
 - **Question:** Will the `FormModel` be the same for both the `template-driven` forms and `reactive` forms?  
-</br>
-  **Answer :** ***YES***. </br>
+<br>
+  **Answer :** ***YES***. <br>
 	Ultimately the `FormModel` is a representation containing the information related to a form. Hence it would be the same for both the form approaches. `The difference lies in the manner in which they are created.`
 
 
@@ -48,7 +48,7 @@ We can use the `Form-model` contents anytime to know the state/value of a `FormC
 </form>
 ```
 
-</br></br>
+<br><br>
 
 ```ts
 valChanged(valChangedForm : NgForm){
@@ -57,7 +57,7 @@ valChanged(valChangedForm : NgForm){
 }
 ```
 
-</br></br>
+<br><br>
 
 **How FormModel looks in console:**
 

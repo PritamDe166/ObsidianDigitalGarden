@@ -10,7 +10,7 @@
 - Normal variable are only valid for that particular session so it doesn't survive the browser refresh.
 - Lets see the example of the `Rock, paper, scissors` game that we saw. We had earlier saved the scores in an object. This will get refreshed even when we reload the browser.
   Lets see the scenario, where we want to stop the scores from refreshing when we refresh the browser. It will refresh only when we click on the "Reset" button.
-</br></br>
+<br><br>
 - Lets see the syntax for localStorage:
 ```js
 localStorage.setItem('Score', JSON.stringify(Score));
@@ -22,7 +22,7 @@ localStorage.setItem('Score', JSON.stringify(Score));
 JSON.parse(localStorage.getItem('Score'));
 ```
 
-</br></br>
+<br><br>
 - As we have discussed that one of the requirement will be that the score should be reset when we click on `Reset` button. For that we remove the localStorage when we click on that button. 
 
 ```js

@@ -1,14 +1,14 @@
 
 ### **Back to Index** : - [[@Input and @Output Operator]]
 
-</br>
+<br>
 
 ---
 
 ### **ngOnChanges()**:
 
 - As discussed, this event is triggered when any incoming changes are detected. The changes will be reflected, but lets say we want to do something whenever we detect a new change has come in the child component. This is where we need to use `ngOnChanges` event.
-</br></br>
+<br><br>
 
 - Lets see the below code:
 
@@ -23,10 +23,10 @@ export class InputExampleChildComponent implements OnChanges{
 ```
 
 - The above code has been written in the child component. So now, every time we change the textbox value in the parent component, and the `@Input` variable in the child component is changed, then the `ngOnChanges` in called.
-</br></br>
+<br><br>
 
 - Another thing that we notice is the input parameter that is present in this event and thats `SimpleChanges`. This will contain the details about the incoming changes whenever the `ngOnChanges` is called.
-</br></br>
+<br><br>
 
 - We will need to import and implement the `ngOnChanges` if we want to use it, like any other lifecycle events.
 
@@ -66,7 +66,7 @@ export class InputExampleParentComponent {
 
 - So we see that the textboxes are bound to the variable `userData` which is of type `UserModelforIOEx1` object. 
   And the properties are bound to the textboxes using the `[(ngModel)]` directive.
-  </br></br>
+  <br><br>
 
 - So when we change the textbox values, this object will hold the values. We will need to pass this data to the child. So we create an `@Input` variable in the child component with the same type.
 
@@ -92,7 +92,7 @@ export class InputExampleChildComponent implements OnChanges{
 }
 ```
 
-</br>
+<br>
 
 - The variable in the child component is `userDetailsfromParent`. So in the parent component we will bind both in the child selector as:
 ```html
@@ -100,7 +100,7 @@ export class InputExampleChildComponent implements OnChanges{
         <app-input-example-child [userDetailsfromParent] = "userData"></app-input-example-child>
     </div>
 ```
-</br></br>
+<br><br>
 
 - In this case we will notice that even when the child component is receiving the data in the object, but the `ngOnChanges` isn't getting triggered. 
   This is because, even when the properties inside the object change, the change detector doesn't detect any changes in the object itself and hence the `ngOnChanges` isn't called.
