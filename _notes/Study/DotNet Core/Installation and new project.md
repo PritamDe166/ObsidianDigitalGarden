@@ -13,8 +13,15 @@
 dotnet --version
 ```
 
+</br>
 
-</br></br>
+
+---
+
+</br>
+
+### **Create First Asp.net Core app**
+
 - Now lets move to creating our application.
 	- We have created a folder and we have opened the terminal at the folder.
 	- Now in order to create our application we use the below command. Note that the `web` keyword in the below command refers to an `empty web app`.
@@ -49,8 +56,9 @@ dotnet run
 
 We can then navigate to the localhost where the app is hosted. eg. `http://localhost:5018`
 
+</br>
 
-	  
-	  
+---
+
 
 
