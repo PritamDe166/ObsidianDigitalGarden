@@ -35,7 +35,7 @@ dotnet new web -n MyDotnetCore1
 
 We can create any type of dot net core application like console, mvc etc. using the keywords. 
 	  The list of keywords can be found in the below link:<br>
-	  https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new
+	<a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new"> Dot net keywords for generating app through terminal. </a>
 
 - Now once the application is created, we will navigate inside the folder using the below command.
 
