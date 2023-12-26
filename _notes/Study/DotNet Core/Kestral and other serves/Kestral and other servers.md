@@ -25,8 +25,8 @@
 - After completion of the development, you require to push the code into the production server which can receive the request from the internet anywhere in the world. So there you will be using reverse proxy servers such as `IIS`, `nginx`, or `apache` as `Reverse proxy servers`. The architecture looks like this.
 
 <br>
-
 ![[Screenshot 2023-12-26 at 10.52.46 PM.png]]
+
 
 
 
