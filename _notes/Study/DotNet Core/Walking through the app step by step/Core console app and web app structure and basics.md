@@ -3,7 +3,7 @@
 
 ---
 
-</br>
+<br>
 
 ### **Structure of the web app**:
 

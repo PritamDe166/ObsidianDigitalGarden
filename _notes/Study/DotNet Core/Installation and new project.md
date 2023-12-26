@@ -9,6 +9,8 @@
 - Since we are using macOS, it will be a little different than windows installation. In windows we can just install the dot net core framework with the visual studio and proceeding.
 - For our purposes we are going to be using `VS Code` as our editor. and we have also installed the `dot net SDK` and the `C# dev kit`.
   We can check the dot net version installed by using the below command. 
+  <br>
+  
 ```cmd
 dotnet --version
 ```
@@ -25,6 +27,8 @@ dotnet --version
 - Now lets move to creating our application.
 	- We have created a folder and we have opened the terminal at the folder.
 	- Now in order to create our application we use the below command. Note that the `web` keyword in the below command refers to an `empty web app`.
+<br>
+
 ```cmd
 dotnet new web -n MyDotnetCore1
 ```
