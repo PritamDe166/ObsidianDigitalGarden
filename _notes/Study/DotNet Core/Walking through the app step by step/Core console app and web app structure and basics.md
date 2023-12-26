@@ -23,6 +23,8 @@
 
 - Remember that the Asp.net Core application basically act like `APIs` with or without `views`, i.e. It works on the HTTP `request` and `response`.
 - The entry point of the application, either console or web is the `program.cs`. We do not explicitly need to mention the `static void main` because at the time of compilation, it will automatically generate it. So the `program.cs` in our web application will look like below:
+</br>
+
 ```cs
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
