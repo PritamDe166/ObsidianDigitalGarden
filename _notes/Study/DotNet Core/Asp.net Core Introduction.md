@@ -14,7 +14,7 @@
 	- Asp.net core apps can be hosted on windows, Linux and Mac. 
 	- 
 	  
-<br>
+</br>
 
 - **Can be hosted on different servers**
 	- After completing the development of your ASP.NET Core application, you need to host it. This means you are required to install it on your server machine to start receiving requests from clients and providing responses. 
@@ -23,22 +23,22 @@
 	- ASP.NET Core defaults to supporting Kestrel as the application server and other options as reverse proxies. These reverse proxies include `IIS, Nginx, and Docker`. 
 	  `Docker`, in particular, supports various operating systems, allowing you to run either Windows or Linux for your ASP.NET Core application on the Docker platform.
 
-<br>
+</br>
 
 - **Open Source**
 	- It is open source, which means the source code of ASP.NET Core is available on `GitHub` for free. The benefit of this is that you will receive frequent updates for ASP.NET Core.
 
-<br>
+</br>
 
 - **Cloud-enabled**
 	- ASP.NET Core is developed with the cloud in mind. This means it supports `Microsoft Azure Cloud` out of the box.
 
-<br>
+</br>
 
 
 ---
 
-<br>
+</br>
 
 
 ### **Types of projects in Asp.net core**
@@ -48,7 +48,7 @@
 	- This should not be confused with ASP.NET MVC, which was available earlier in the .NET Framework. 
 	- Whenever you use the `Model-View-Controller (MVC)` pattern in ASP.NET Core, it is referred to as ASP.NET Core MVC.
 
-<br>
+</br>
 
 - **Asp.net Core WEB API**:
 	- In case you only create controllers with models, but no views, it is referred to as `ASP.NET Core Web API`. 
@@ -58,12 +58,12 @@
 	  For example, you can create the frontend using frameworks like `React` or `Angular` for web applications, or `Xamarin or Ionic` for mobile applications. 
 	  `In all these scenarios, the Web API can function as a backend`.
 
-<br>
+</br>
 
 - **Asp.net Core RAZOR PAGES**:
 	- In addition to that, for simple and page-focused scenarios, Razor Pages are available.
 
-<br>
+</br>
 
 - **Asp.net Core BLAZOR**:
 	- If the development team wishes to utilise the C# language exclusively, both on the `server side` and the `client side`, then the preferred choice would be ASP.NET.
@@ -71,9 +71,9 @@
 >[!tip] Blazor, out of all these four flavours, the first two are the most commonly used in real-world project development.
 
 
-<br>
+</br>
 
 ---
 
-<br>
+</br>
 
