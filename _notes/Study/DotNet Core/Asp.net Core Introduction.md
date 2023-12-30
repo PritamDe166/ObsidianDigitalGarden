@@ -14,7 +14,7 @@
 	- Asp.net core apps can be hosted on windows, Linux and Mac. 
 	- 
 	  
-</br>
+<br>
 
 - **Can be hosted on different servers**
 	- After completing the development of your ASP.NET Core application, you need to host it. This means you are required to install it on your server machine to start receiving requests from clients and providing responses. 

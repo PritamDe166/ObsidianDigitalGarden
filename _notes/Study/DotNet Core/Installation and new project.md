@@ -13,12 +13,12 @@
 dotnet --version
 ```
 
-</br>
+**<br>**
 
 
 ---
 
-</br>
+<br>
 
 ### **Create First Asp.net Core app**
 
@@ -30,7 +30,7 @@ dotnet new web -n MyDotnetCore1
 ```
 
 We can create any type of dot net core application like console, mvc etc. using the keywords. 
-	  The list of keywords can be found in the below link:</br>
+	  The list of keywords can be found in the below link:<br>
 	  <a href="https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-new">
 	  Keywords for creating new Dotnet Core application</a>
 	  
@@ -41,14 +41,14 @@ We can create any type of dot net core application like console, mvc etc. using 
 cd MyDotnetCore1
 ```
 
-</br>
+<br>
 
 - Now we can open the code in the VS Code editor using the below command.
 ```cmd
 code .
 ```
 
-</br>
+<br>
 
 - Then we can use the below commands to build and run our application.
 ```cmd
@@ -58,7 +58,7 @@ dotnet run
 
 We can then navigate to the localhost where the app is hosted. eg. `http://localhost:5018`
 
-</br>
+<br>
 
 ---
 
